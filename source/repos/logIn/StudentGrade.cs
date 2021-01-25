@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace GradesForm
 {
-    public partial class Form1 : Form
+    public partial class StudentGrade : Form
     {
-        public Form1()
+        public StudentGrade()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void StudentGrade_Load(object sender, EventArgs e)
         {
 
         }

@@ -1,5 +1,5 @@
 ﻿
-namespace logIn
+namespace GradesForm
 {
     partial class LogInPage
     {
@@ -82,6 +82,7 @@ namespace logIn
             this.LogInbutton.TabIndex = 2;
             this.LogInbutton.Text = "تسجيل الدخول";
             this.LogInbutton.UseVisualStyleBackColor = true;
+            this.LogInbutton.Click += new System.EventHandler(this.login_button);
             // 
             // CloseButton
             // 
@@ -160,6 +161,7 @@ namespace logIn
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LogInPage";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.LogInPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.visible_pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.unvisibl_pic)).EndInit();
             this.ResumeLayout(false);

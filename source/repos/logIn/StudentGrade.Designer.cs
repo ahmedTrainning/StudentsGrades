@@ -1,7 +1,7 @@
 ﻿
 namespace GradesForm
 {
-    partial class Form1
+    partial class StudentGrade
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace GradesForm
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentGrade));
             this.Show = new System.Windows.Forms.Button();
             this.AddStudent = new System.Windows.Forms.Button();
             this.DeleteStudent = new System.Windows.Forms.Button();
@@ -79,7 +79,7 @@ namespace GradesForm
             this.reset.Name = "reset";
             this.reset.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // StudentGrade
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -90,15 +90,15 @@ namespace GradesForm
             this.Controls.Add(this.Show);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Name = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "StudentGrade";
+            this.Load += new System.EventHandler(this.StudentGrade_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button Show;
+        private new System.Windows.Forms.Button Show;
         private System.Windows.Forms.Button AddStudent;
         private System.Windows.Forms.Button DeleteStudent;
         private System.Windows.Forms.Button save;
