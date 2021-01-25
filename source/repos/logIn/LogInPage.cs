@@ -18,45 +18,31 @@ namespace logIn
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button2_Click(object sender, EventArgs e)
+        private void register_lable(object sender, EventArgs e)
         {
             this.Hide();
-            var register_page = new RegisterPage();
-            register_page.Show();
+            var register = new RegisterPage();
+            register.Show();
         }
 
-        private void UserIDTXT_TextChanged(object sender, EventArgs e)
-        {
-          
-        }
-        private void UserIDTXT_Click(object sender, EventArgs e)
-        {
-            UserIDTXT.Clear();
-        }
-
-        private void LogInLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CloseButton_Click(object sender, EventArgs e)
+        private void close_button(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        private void visible_pass_pic(object sender, EventArgs e)
+        {
+            
+            PasswordTXT.UseSystemPasswordChar = true;
+            unvisibl_pic.Show();
 
-        private void PasswordTXT_Click(object sender, EventArgs e)
-        {
-            PasswordTXT.Clear();
         }
-        private void PasswordTXT_TextChanged(object sender, EventArgs e)
+
+        private void unvisible_pass_pic(object sender, EventArgs e)
         {
-            PasswordTXT.PasswordChar = '*';
+            PasswordTXT.UseSystemPasswordChar = false;
+            unvisibl_pic.Hide();
+
         }
     }
 }

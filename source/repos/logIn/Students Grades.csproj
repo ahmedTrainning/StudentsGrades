@@ -105,15 +105,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\egres vs tank edited.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Dark_Souls_Remastered_Screenshot_2020.10.11_-_21.18.12.31.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\treesBackground2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\LoginBackground.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
