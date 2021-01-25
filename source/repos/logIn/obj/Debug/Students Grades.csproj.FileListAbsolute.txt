@@ -1,0 +1,7 @@
+C:\Users\ahmed\source\repos\logIn\obj\Debug\logIn.LogInPage.resources
+C:\Users\ahmed\source\repos\logIn\obj\Debug\GradesForm.Form1.resources
+C:\Users\ahmed\source\repos\logIn\obj\Debug\logIn.Properties.Resources.resources
+C:\Users\ahmed\source\repos\logIn\obj\Debug\Students Grades.csproj.GenerateResource.cache
+C:\Users\ahmed\source\repos\logIn\obj\Debug\Students Grades.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\source\repos\logIn\obj\Debug\logIn.exe
+C:\Users\ahmed\source\repos\logIn\obj\Debug\logIn.pdb

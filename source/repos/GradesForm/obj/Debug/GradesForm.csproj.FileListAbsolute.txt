@@ -1,0 +1,13 @@
+C:\Users\ahmed\source\repos\GradesForm\bin\Debug\GradesForm.exe.config
+C:\Users\ahmed\source\repos\GradesForm\bin\Debug\GradesForm.exe
+C:\Users\ahmed\source\repos\GradesForm\bin\Debug\GradesForm.pdb
+C:\Users\ahmed\source\repos\GradesForm\obj\Debug\GradesForm.csprojAssemblyReference.cache
+C:\Users\ahmed\source\repos\GradesForm\obj\Debug\GradesForm.Form1.resources
+C:\Users\ahmed\source\repos\GradesForm\obj\Debug\GradesForm.Properties.Resources.resources
+C:\Users\ahmed\source\repos\GradesForm\obj\Debug\GradesForm.csproj.GenerateResource.cache
+C:\Users\ahmed\source\repos\GradesForm\obj\Debug\GradesForm.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\source\repos\GradesForm\obj\Debug\GradesForm.exe
+C:\Users\ahmed\source\repos\GradesForm\obj\Debug\GradesForm.pdb
+C:\Users\ahmed\source\repos\GradesForm\bin\Debug\ar-SA\GradesForm.resources.dll
+C:\Users\ahmed\source\repos\GradesForm\obj\Debug\GradesForm.Form1.ar-SA.resources
+C:\Users\ahmed\source\repos\GradesForm\obj\Debug\ar-SA\GradesForm.resources.dll
