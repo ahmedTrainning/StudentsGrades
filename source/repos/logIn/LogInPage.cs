@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudentGrade;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,6 +25,9 @@ namespace logIn
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            var register_page = new RegisterPage();
+            register_page.Show();
         }
 
         private void UserIDTXT_TextChanged(object sender, EventArgs e)
@@ -45,10 +49,6 @@ namespace logIn
             this.Close();
         }
 
-        private void BackButton_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void PasswordTXT_Click(object sender, EventArgs e)
         {

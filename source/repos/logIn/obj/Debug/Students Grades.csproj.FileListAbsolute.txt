@@ -5,3 +5,15 @@ C:\Users\ahmed\source\repos\logIn\obj\Debug\Students Grades.csproj.GenerateResou
 C:\Users\ahmed\source\repos\logIn\obj\Debug\Students Grades.csproj.CoreCompileInputs.cache
 C:\Users\ahmed\source\repos\logIn\obj\Debug\logIn.exe
 C:\Users\ahmed\source\repos\logIn\obj\Debug\logIn.pdb
+C:\GitHub\Workspace\source\repos\logIn\bin\Debug\logIn.exe.config
+C:\GitHub\Workspace\source\repos\logIn\bin\Debug\logIn.exe
+C:\GitHub\Workspace\source\repos\logIn\bin\Debug\logIn.pdb
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\Students Grades.csprojAssemblyReference.cache
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\GradesForm.Form1.resources
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\logIn.LogInPage.resources
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\logIn.Properties.Resources.resources
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\Students Grades.csproj.GenerateResource.cache
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\Students Grades.csproj.CoreCompileInputs.cache
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\logIn.exe
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\logIn.pdb
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\StudentGrade.RegisterPage.resources

@@ -34,7 +34,6 @@ namespace logIn
             this.LogInbutton = new System.Windows.Forms.Button();
             this.register = new System.Windows.Forms.Button();
             this.CloseButton = new System.Windows.Forms.Button();
-            this.BackButton = new System.Windows.Forms.Button();
             this.LogInLabel1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -72,11 +71,11 @@ namespace logIn
             this.LogInbutton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LogInbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LogInbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogInbutton.Location = new System.Drawing.Point(68, 239);
+            this.LogInbutton.Location = new System.Drawing.Point(68, 311);
             this.LogInbutton.Name = "LogInbutton";
             this.LogInbutton.Size = new System.Drawing.Size(75, 31);
             this.LogInbutton.TabIndex = 2;
-            this.LogInbutton.Text = "login";
+            this.LogInbutton.Text = "تسجيل الدخول";
             this.LogInbutton.UseVisualStyleBackColor = true;
             // 
             // register
@@ -108,19 +107,6 @@ namespace logIn
             this.CloseButton.UseVisualStyleBackColor = true;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
-            // BackButton
-            // 
-            this.BackButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BackButton.Location = new System.Drawing.Point(68, 311);
-            this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(75, 31);
-            this.BackButton.TabIndex = 8;
-            this.BackButton.Text = "Back";
-            this.BackButton.UseVisualStyleBackColor = true;
-            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
-            // 
             // LogInLabel1
             // 
             this.LogInLabel1.AutoSize = true;
@@ -142,7 +128,7 @@ namespace logIn
             this.label2.TabIndex = 11;
             this.label2.Text = "Don\'t have an acount ? ";
             // 
-            // Form1
+            // LogInPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,14 +137,13 @@ namespace logIn
             this.ClientSize = new System.Drawing.Size(342, 425);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.LogInLabel1);
-            this.Controls.Add(this.BackButton);
             this.Controls.Add(this.CloseButton);
             this.Controls.Add(this.register);
             this.Controls.Add(this.LogInbutton);
             this.Controls.Add(this.PasswordTXT);
             this.Controls.Add(this.UserIDTXT);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "LogInPage";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -173,7 +158,6 @@ namespace logIn
         private System.Windows.Forms.Button LogInbutton;
         private System.Windows.Forms.Button register;
         private System.Windows.Forms.Button CloseButton;
-        private System.Windows.Forms.Button BackButton;
         private System.Windows.Forms.Label LogInLabel1;
         private System.Windows.Forms.Label label2;
     }
