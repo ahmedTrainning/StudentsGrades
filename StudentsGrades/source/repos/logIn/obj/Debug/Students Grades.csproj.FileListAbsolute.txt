@@ -1,0 +1,32 @@
+C:\Users\ahmed\source\repos\logIn\obj\Debug\logIn.LogInPage.resources
+C:\Users\ahmed\source\repos\logIn\obj\Debug\GradesForm.Form1.resources
+C:\Users\ahmed\source\repos\logIn\obj\Debug\logIn.Properties.Resources.resources
+C:\Users\ahmed\source\repos\logIn\obj\Debug\Students Grades.csproj.GenerateResource.cache
+C:\Users\ahmed\source\repos\logIn\obj\Debug\Students Grades.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\source\repos\logIn\obj\Debug\logIn.exe
+C:\Users\ahmed\source\repos\logIn\obj\Debug\logIn.pdb
+C:\GitHub\Workspace\source\repos\logIn\bin\Debug\logIn.exe.config
+C:\GitHub\Workspace\source\repos\logIn\bin\Debug\logIn.exe
+C:\GitHub\Workspace\source\repos\logIn\bin\Debug\logIn.pdb
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\Students Grades.csprojAssemblyReference.cache
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\GradesForm.Form1.resources
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\logIn.LogInPage.resources
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\logIn.Properties.Resources.resources
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\Students Grades.csproj.GenerateResource.cache
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\Students Grades.csproj.CoreCompileInputs.cache
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\logIn.exe
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\logIn.pdb
+C:\GitHub\Workspace\source\repos\logIn\obj\Debug\StudentGrade.RegisterPage.resources
+M:\GithubWP\StudentsGrades\source\repos\logIn\bin\Debug\logIn.exe.config
+M:\GithubWP\StudentsGrades\source\repos\logIn\bin\Debug\logIn.exe
+M:\GithubWP\StudentsGrades\source\repos\logIn\bin\Debug\logIn.pdb
+M:\GithubWP\StudentsGrades\source\repos\logIn\obj\Debug\Students Grades.csprojAssemblyReference.cache
+M:\GithubWP\StudentsGrades\source\repos\logIn\obj\Debug\logIn.LogInPage.resources
+M:\GithubWP\StudentsGrades\source\repos\logIn\obj\Debug\logIn.Properties.Resources.resources
+M:\GithubWP\StudentsGrades\source\repos\logIn\obj\Debug\Students Grades.csproj.GenerateResource.cache
+M:\GithubWP\StudentsGrades\source\repos\logIn\obj\Debug\Students Grades.csproj.CoreCompileInputs.cache
+M:\GithubWP\StudentsGrades\source\repos\logIn\obj\Debug\logIn.exe
+M:\GithubWP\StudentsGrades\source\repos\logIn\obj\Debug\logIn.pdb
+M:\GithubWP\StudentsGrades\source\repos\logIn\obj\Debug\AddStudent.addStudent.resources
+M:\GithubWP\StudentsGrades\source\repos\logIn\obj\Debug\GradesForm.StudentGrade.resources
+M:\GithubWP\StudentsGrades\source\repos\logIn\obj\Debug\Student1Grade.RegisterPage.resources
