@@ -117,165 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Show.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Show.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="Show.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 114</value>
-  </data>
-  <data name="Show.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 45</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Show.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Show.Text" xml:space="preserve">
-    <value>الطلاب و المواد</value>
-  </data>
-  <data name="&gt;&gt;Show.Name" xml:space="preserve">
-    <value>Show</value>
-  </data>
-  <data name="&gt;&gt;Show.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Show.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Show.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="AddStudent.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="AddStudent.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="AddStudent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 211</value>
-  </data>
-  <data name="AddStudent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 23</value>
-  </data>
-  <data name="AddStudent.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="AddStudent.Text" xml:space="preserve">
-    <value>أضف طالب</value>
-  </data>
-  <data name="&gt;&gt;AddStudent.Name" xml:space="preserve">
-    <value>AddStudent</value>
-  </data>
-  <data name="&gt;&gt;AddStudent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AddStudent.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;AddStudent.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="DeleteStudent.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="DeleteStudent.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="DeleteStudent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 211</value>
-  </data>
-  <data name="DeleteStudent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 23</value>
-  </data>
-  <data name="DeleteStudent.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="DeleteStudent.Text" xml:space="preserve">
-    <value>إحذف طالب</value>
-  </data>
-  <data name="&gt;&gt;DeleteStudent.Name" xml:space="preserve">
-    <value>DeleteStudent</value>
-  </data>
-  <data name="&gt;&gt;DeleteStudent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DeleteStudent.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;DeleteStudent.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="save.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="save.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="save.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 320</value>
-  </data>
-  <data name="save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 23</value>
-  </data>
-  <data name="save.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="save.Text" xml:space="preserve">
-    <value>حفظ و عودة</value>
-  </data>
-  <data name="&gt;&gt;save.Name" xml:space="preserve">
-    <value>save</value>
-  </data>
-  <data name="&gt;&gt;save.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;save.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;save.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="reset.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="reset.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="reset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="reset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 320</value>
-  </data>
-  <data name="reset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 23</value>
-  </data>
-  <data name="reset.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="reset.Text" xml:space="preserve">
-    <value>إعادة ضبط</value>
-  </data>
-  <data name="&gt;&gt;reset.Name" xml:space="preserve">
-    <value>reset</value>
-  </data>
-  <data name="&gt;&gt;reset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;reset.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;reset.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="LogInLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LogInLabel1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13pt, style=Bold</value>
   </data>
@@ -330,6 +176,7 @@
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -340,7 +187,7 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 250</value>
+    <value>129, 234</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 23</value>
@@ -363,6 +210,39 @@
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="Show.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Show.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="Show.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Show.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 138</value>
+  </data>
+  <data name="Show.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 45</value>
+  </data>
+  <data name="Show.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Show.Text" xml:space="preserve">
+    <value>استعلام</value>
+  </data>
+  <data name="&gt;&gt;Show.Name" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="&gt;&gt;Show.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Show.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Show.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -373,7 +253,7 @@
     <value>NoControl</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 250</value>
+    <value>129, 288</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 23</value>
@@ -409,7 +289,7 @@
     <value>نافذة الطلاب</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>StudentGrade</value>
+    <value>homePage</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

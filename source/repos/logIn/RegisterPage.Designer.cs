@@ -45,7 +45,7 @@ namespace StudentGrade
             // button_back
             // 
             this.button_back.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_back.Location = new System.Drawing.Point(31, 333);
+            this.button_back.Location = new System.Drawing.Point(31, 344);
             this.button_back.Name = "button_back";
             this.button_back.Size = new System.Drawing.Size(75, 23);
             this.button_back.TabIndex = 4;
@@ -56,7 +56,7 @@ namespace StudentGrade
             // create_button
             // 
             this.create_button.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.create_button.Location = new System.Drawing.Point(201, 333);
+            this.create_button.Location = new System.Drawing.Point(200, 344);
             this.create_button.Name = "create_button";
             this.create_button.Size = new System.Drawing.Size(109, 23);
             this.create_button.TabIndex = 5;

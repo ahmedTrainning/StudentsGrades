@@ -60,6 +60,7 @@ namespace GradesForm
             this.field_id.TabIndex = 0;
             this.field_id.Text = "رقم الحساب";
             this.field_id.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+           
             // 
             // PasswordTXT
             // 
@@ -75,7 +76,6 @@ namespace GradesForm
             this.PasswordTXT.Text = "الرقم السري";
             this.PasswordTXT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.PasswordTXT.UseSystemPasswordChar = true;
-            this.PasswordTXT.TextChanged += new System.EventHandler(this.PasswordTXT_TextChanged);
             // 
             // LogInbutton
             // 
@@ -153,7 +153,7 @@ namespace GradesForm
             this.button3.TabIndex = 13;
             this.button3.Text = "X";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.close_button);
             // 
             // label1
             // 

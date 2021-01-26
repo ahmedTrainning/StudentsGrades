@@ -25,11 +25,12 @@ namespace GradesForm
             this.Hide();
             var register = new RegisterPage();
             register.Show();
+
         }
 
         private void close_button(object sender, EventArgs e)
         {
-            this.Close();
+            System.Windows.Forms.Application.Exit();
         }
 
         private void visible_pass_pic(object sender, EventArgs e)
@@ -60,7 +61,6 @@ namespace GradesForm
             string sqlConnection = "Server=localhost;Database=studentsgrade;Uid=root;Pwd=";
 
             MySqlConnection dbConnection = new MySqlConnection(sqlConnection);
-
             MySqlCommand commandDb;
 
 
@@ -92,7 +92,7 @@ namespace GradesForm
                         if (text2 == reader["pass"].ToString())
                         {
                             this.Hide();
-                            var sgPage = new StudentGrade();
+                            var sgPage = new homePage(text1);
                             sgPage.Show();
                             break;
                         }
@@ -116,19 +116,8 @@ namespace GradesForm
                 if (dbConnection.State == ConnectionState.Open)
                 {
                     dbConnection.Close();
-
                 }
             }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        private void PasswordTXT_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

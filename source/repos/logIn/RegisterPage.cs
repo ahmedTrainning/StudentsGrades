@@ -34,7 +34,7 @@ namespace StudentGrade
             string text2 = textBox2.Text;
             string text3 = textBox3.Text;
             string text4 = textBox4.Text;
-            string query = ("INSERT INTO teacher VALUES ("+text1+",NULL,NULL,'"+text2+"','"+text3+"','"+text4+"');");
+            string query = ("INSERT INTO teacher VALUES ("+text1+",'"+text2+"','"+text3+"','"+text4+"');");
 
             string sqlConnection = "Server=localhost;Database=studentsgrade;Uid=root;Pwd=";
 
@@ -53,6 +53,7 @@ namespace StudentGrade
                 var loginPage = new LogInPage();
                 loginPage.Show();
                 
+
             }
             catch (Exception ex)
             {
@@ -66,13 +67,6 @@ namespace StudentGrade
                     
                 }
             }
-            /* TextBox tb_empty1 = (TextBox)sender;
-             tb_empty1.Text = string.Empty;
-             tb_empty1.GotFocus -= button2_Click;
-            if(button2_Click.Text.Trim() != "" || button2_Click.Text != null)
-            {
-                button2_Click.Text = "";
-            }*/
         }
 
         private void RegisterPage_Load(object sender, EventArgs e)
@@ -82,7 +76,7 @@ namespace StudentGrade
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Close();
+            System.Windows.Forms.Application.Exit();
         }
     }
 }

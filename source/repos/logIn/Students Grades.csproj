@@ -58,17 +58,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addStudent.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="addStudent.Designer.cs">
-      <DependentUpon>addStudent.cs</DependentUpon>
-    </Compile>
     <Compile Include="CoursesF.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CoursesF.Designer.cs">
       <DependentUpon>CoursesF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delCourse.Designer.cs">
+      <DependentUpon>delCourse.cs</DependentUpon>
     </Compile>
     <Compile Include="RegisterPage.cs">
       <SubType>Form</SubType>
@@ -76,11 +76,11 @@
     <Compile Include="RegisterPage.Designer.cs">
       <DependentUpon>RegisterPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentGrade.cs">
+    <Compile Include="HomaPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentGrade.Designer.cs">
-      <DependentUpon>StudentGrade.cs</DependentUpon>
+    <Compile Include="HomaPage.Designer.cs">
+      <DependentUpon>HomaPage.cs</DependentUpon>
     </Compile>
     <Compile Include="LogInPage.cs">
       <SubType>Form</SubType>
@@ -91,17 +91,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StudentGradeBase.cs" />
-    <EmbeddedResource Include="addStudent.resx">
-      <DependentUpon>addStudent.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CoursesF.resx">
       <DependentUpon>CoursesF.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterPage.resx">
       <DependentUpon>RegisterPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentGrade.resx">
-      <DependentUpon>StudentGrade.cs</DependentUpon>
+    <EmbeddedResource Include="HomaPage.resx">
+      <DependentUpon>HomaPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogInPage.resx">
       <DependentUpon>LogInPage.cs</DependentUpon>
