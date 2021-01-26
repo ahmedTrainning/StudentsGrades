@@ -55,5 +55,12 @@ namespace GradesForm
             quy.Show();
 
         }
+
+        private void logout_button(object sender, EventArgs e)
+        {
+            this.Hide();
+            var login = new LogInPage();
+            login.Show();
+        }
     }
 }
