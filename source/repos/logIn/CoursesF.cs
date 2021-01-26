@@ -1,5 +1,4 @@
-﻿using AddStudentForm;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,31 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GradesForm
+namespace logIn
 {
-    public partial class StudentGrade : Form
+    public partial class CoursesF : Form
     {
-        public StudentGrade()
+        public CoursesF()
         {
             InitializeComponent();
         }
 
-        private void StudentGrade_Load(object sender, EventArgs e)
+        private void CoursesF_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void AddStudent_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var hum = new AddStudent();
-            hum.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Close();
-
         }
     }
 }

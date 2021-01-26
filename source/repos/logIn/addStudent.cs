@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AddStudentForm
 {
-    public partial class Form1 : Form
+    public partial class AddStudent : Form
     {
-        public Form1()
+        public AddStudent()
         {
             InitializeComponent();
         }
@@ -41,6 +41,16 @@ namespace AddStudentForm
         private void textBox3_Click(object sender, EventArgs e)
         {
             textBox3.Clear();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

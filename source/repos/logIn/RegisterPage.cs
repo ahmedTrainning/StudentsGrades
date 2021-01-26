@@ -66,8 +66,23 @@ namespace StudentGrade
                     
                 }
             }
+            /* TextBox tb_empty1 = (TextBox)sender;
+             tb_empty1.Text = string.Empty;
+             tb_empty1.GotFocus -= button2_Click;
+            if(button2_Click.Text.Trim() != "" || button2_Click.Text != null)
+            {
+                button2_Click.Text = "";
+            }*/
         }
 
-       
+        private void RegisterPage_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

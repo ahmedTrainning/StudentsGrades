@@ -31,57 +31,21 @@ namespace StudentGrade
         /// </summary>
         private void InitializeComponent()
         {
-            this.label_ID = new System.Windows.Forms.Label();
-            this.label_Name = new System.Windows.Forms.Label();
-            this.label_email = new System.Windows.Forms.Label();
-            this.label_pass = new System.Windows.Forms.Label();
             this.button_back = new System.Windows.Forms.Button();
             this.create_button = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.LogInLabel1 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // label_ID
-            // 
-            this.label_ID.AutoSize = true;
-            this.label_ID.Location = new System.Drawing.Point(290, 96);
-            this.label_ID.Name = "label_ID";
-            this.label_ID.Size = new System.Drawing.Size(60, 13);
-            this.label_ID.TabIndex = 0;
-            this.label_ID.Text = "رقم الحساب";
-            // 
-            // label_Name
-            // 
-            this.label_Name.AutoSize = true;
-            this.label_Name.Location = new System.Drawing.Point(282, 153);
-            this.label_Name.Name = "label_Name";
-            this.label_Name.Size = new System.Drawing.Size(68, 13);
-            this.label_Name.TabIndex = 1;
-            this.label_Name.Text = "اسم المستخدم";
-            // 
-            // label_email
-            // 
-            this.label_email.AutoSize = true;
-            this.label_email.Location = new System.Drawing.Point(268, 199);
-            this.label_email.Name = "label_email";
-            this.label_email.Size = new System.Drawing.Size(82, 13);
-            this.label_email.TabIndex = 2;
-            this.label_email.Text = "البريد الإلكتروني";
-            // 
-            // label_pass
-            // 
-            this.label_pass.AutoSize = true;
-            this.label_pass.Location = new System.Drawing.Point(298, 250);
-            this.label_pass.Name = "label_pass";
-            this.label_pass.Size = new System.Drawing.Size(52, 13);
-            this.label_pass.TabIndex = 3;
-            this.label_pass.Text = "رمز المرور";
             // 
             // button_back
             // 
-            this.button_back.Location = new System.Drawing.Point(275, 12);
+            this.button_back.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_back.Location = new System.Drawing.Point(31, 333);
             this.button_back.Name = "button_back";
             this.button_back.Size = new System.Drawing.Size(75, 23);
             this.button_back.TabIndex = 4;
@@ -91,9 +55,10 @@ namespace StudentGrade
             // 
             // create_button
             // 
-            this.create_button.Location = new System.Drawing.Point(124, 298);
+            this.create_button.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.create_button.Location = new System.Drawing.Point(201, 333);
             this.create_button.Name = "create_button";
-            this.create_button.Size = new System.Drawing.Size(109, 45);
+            this.create_button.Size = new System.Drawing.Size(109, 23);
             this.create_button.TabIndex = 5;
             this.create_button.Text = "إنشاء";
             this.create_button.UseVisualStyleBackColor = true;
@@ -101,70 +66,122 @@ namespace StudentGrade
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(42, 93);
+            this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.textBox1.Location = new System.Drawing.Point(31, 130);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 20);
+            this.textBox1.Size = new System.Drawing.Size(279, 29);
             this.textBox1.TabIndex = 6;
+            this.textBox1.Text = "رقم الحساب";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(42, 150);
+            this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.textBox2.Location = new System.Drawing.Point(31, 187);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(191, 20);
+            this.textBox2.Size = new System.Drawing.Size(279, 29);
             this.textBox2.TabIndex = 7;
+            this.textBox2.Text = "اسم المستخدم";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(41, 196);
+            this.textBox3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.textBox3.Location = new System.Drawing.Point(30, 233);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(192, 20);
+            this.textBox3.Size = new System.Drawing.Size(279, 29);
             this.textBox3.TabIndex = 8;
+            this.textBox3.Text = "البريد الإلكتروني";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(42, 247);
+            this.textBox4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.textBox4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.textBox4.Location = new System.Drawing.Point(31, 284);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(191, 20);
+            this.textBox4.Size = new System.Drawing.Size(279, 29);
             this.textBox4.TabIndex = 9;
+            this.textBox4.Text = "رمز المرور";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox4.UseSystemPasswordChar = true;
+            // 
+            // LogInLabel1
+            // 
+            this.LogInLabel1.AutoSize = true;
+            this.LogInLabel1.Cursor = System.Windows.Forms.Cursors.No;
+            this.LogInLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInLabel1.Location = new System.Drawing.Point(125, 60);
+            this.LogInLabel1.Name = "LogInLabel1";
+            this.LogInLabel1.Size = new System.Drawing.Size(93, 22);
+            this.LogInLabel1.TabIndex = 12;
+            this.LogInLabel1.Text = "إنشاء حساب";
+            this.LogInLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Red;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Location = new System.Drawing.Point(301, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(29, 23);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "X";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.BackgroundImage = global::logIn.Properties.Resources.LoginBackground;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(281, 96);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(28, 28);
+            this.button1.TabIndex = 17;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // RegisterPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(394, 390);
+            this.ClientSize = new System.Drawing.Size(342, 425);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.LogInLabel1);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.create_button);
             this.Controls.Add(this.button_back);
-            this.Controls.Add(this.label_pass);
-            this.Controls.Add(this.label_email);
-            this.Controls.Add(this.label_Name);
-            this.Controls.Add(this.label_ID);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RegisterPage";
             this.Text = "إنشاء حساب";
+            this.Load += new System.EventHandler(this.RegisterPage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label_ID;
-        private System.Windows.Forms.Label label_Name;
-        private System.Windows.Forms.Label label_email;
-        private System.Windows.Forms.Label label_pass;
         private System.Windows.Forms.Button button_back;
         private System.Windows.Forms.Button create_button;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label LogInLabel1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button1;
     }
 }

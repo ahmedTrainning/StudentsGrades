@@ -36,3 +36,32 @@ C:\GitHub\Workspace\source\repos\logIn\obj\Debug\logIn.exe.config
 C:\GitHub\Workspace\source\repos\logIn\obj\Debug\GradesForm.StudentGrade.resources
 C:\GitHub\Workspace\source\repos\logIn\obj\Debug\AddStudentForm.Form1.resources
 C:\GitHub\Workspace\source\repos\logIn\obj\Debug\GradesForm.LogInPage.resources
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\logIn.exe.config
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\logIn.exe
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\logIn.pdb
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\Google.Protobuf.dll
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\Zstandard.Net.dll
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\K4os.Compression.LZ4.Streams.dll
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\BouncyCastle.Crypto.dll
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\Ubiety.Dns.Core.dll
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\System.Memory.dll
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\System.Buffers.dll
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\K4os.Compression.LZ4.dll
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\K4os.Hash.xxHash.dll
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\System.Numerics.Vectors.dll
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\MySql.Data.xml
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\bin\Debug\MySql.Web.xml
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\Students Grades.csprojAssemblyReference.cache
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\logIn.exe.config
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\StudentGrade.RegisterPage.resources
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\GradesForm.StudentGrade.resources
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\GradesForm.LogInPage.resources
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\logIn.Properties.Resources.resources
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\Students Grades.csproj.GenerateResource.cache
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\Students Grades.csproj.CoreCompileInputs.cache
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\Students Grades.csproj.CopyComplete
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\logIn.exe
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\logIn.pdb
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\AddStudentForm.AddStudent.resources
+M:\GithubWP\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\logIn.CoursesF.resources

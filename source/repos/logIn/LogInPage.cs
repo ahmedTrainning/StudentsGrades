@@ -121,5 +121,14 @@ namespace GradesForm
             }
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void PasswordTXT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
