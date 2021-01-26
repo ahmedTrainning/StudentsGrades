@@ -47,5 +47,13 @@ namespace GradesForm
             var delC = new delCourse();
             delC.Show();
         }
+
+        private void Show_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var quy = new Query();
+            quy.Show();
+
+        }
     }
 }

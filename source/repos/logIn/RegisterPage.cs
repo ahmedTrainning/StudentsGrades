@@ -20,15 +20,7 @@ namespace StudentGrade
             InitializeComponent();
         }
 
-        private void back_button(object sender, EventArgs e)
-        {
-            this.Hide();
-            var log_page = new LogInPage();
-            log_page.Show();
-        }
-
-
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             string text1 = textBox1.Text;
             string text2 = textBox2.Text;
@@ -77,6 +69,13 @@ namespace StudentGrade
         private void button3_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var log_page = new LogInPage();
+            log_page.Show();
         }
     }
 }

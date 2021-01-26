@@ -70,6 +70,12 @@
     <Compile Include="delCourse.Designer.cs">
       <DependentUpon>delCourse.cs</DependentUpon>
     </Compile>
+    <Compile Include="Query.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query.Designer.cs">
+      <DependentUpon>Query.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegisterPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,12 @@
     <Compile Include="StudentGradeBase.cs" />
     <EmbeddedResource Include="CoursesF.resx">
       <DependentUpon>CoursesF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delCourse.resx">
+      <DependentUpon>delCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query.resx">
+      <DependentUpon>Query.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterPage.resx">
       <DependentUpon>RegisterPage.cs</DependentUpon>
