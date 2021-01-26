@@ -44,14 +44,14 @@ namespace GradesForm
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var delC = new delCourse();
+            var delC = new delCourse(registered);
             delC.Show();
         }
 
         private void Show_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var quy = new Query();
+            var quy = new Query(registered);
             quy.Show();
 
         }

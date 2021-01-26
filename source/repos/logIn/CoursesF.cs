@@ -57,7 +57,7 @@ namespace GradesForm
 
                 MySqlDataReader reader = commandDb.ExecuteReader();
                 reader.Read();
-                MessageBox.Show(" لقائمتك "+reader["course_name"].ToString()+" تمت اضافة المادة ");
+                MessageBox.Show(" .لقائمتك "+reader["course_name"].ToString()+" تمت اضافة المادة ");
                 reader.Close();
 
                 commandDb.ExecuteNonQuery();
@@ -109,8 +109,8 @@ namespace GradesForm
                     + reader_res[5, 1] + "\t -\t " + reader_res[5, 0] + "\n"
                     + reader_res[6, 1] + "\t -\t " + reader_res[6, 0] + "\n"
                     + reader_res[7, 1] + "\t -\t " + reader_res[7, 0] + "\n"
-                    + reader_res[8, 1] + "\t -\t " + reader_res[8, 0] + "\n"
-                    + reader_res[9, 1] + " -\t " + reader_res[9, 0] + "\n");
+                    + reader_res[8, 1] + " -\t " + reader_res[8, 0] + "\n"
+                    + reader_res[9, 1] + "\t -\t " + reader_res[9, 0] + "\n");
                 
                 commandDb.ExecuteNonQuery();
             }

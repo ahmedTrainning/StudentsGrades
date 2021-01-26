@@ -37,6 +37,7 @@ namespace GradesForm
             this.button6 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button3
@@ -118,6 +119,7 @@ namespace GradesForm
             this.button2.TabIndex = 35;
             this.button2.Text = "عودة";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.back_button);
             // 
             // button1
             // 
@@ -131,6 +133,17 @@ namespace GradesForm
             this.button1.TabIndex = 34;
             this.button1.Text = "إضافة";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.add_course_button);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(68, 193);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(208, 23);
+            this.button4.TabIndex = 40;
+            this.button4.Text = "إستعلام عن ارقام المواد";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.show_courses);
             // 
             // CoursesF
             // 
@@ -138,6 +151,7 @@ namespace GradesForm
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(342, 425);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button2);
@@ -163,5 +177,6 @@ namespace GradesForm
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
     }
 }

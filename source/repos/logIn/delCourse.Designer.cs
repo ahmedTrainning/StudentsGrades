@@ -32,7 +32,7 @@ namespace logIn
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(delCourse));
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.LogInLabel1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -67,18 +67,19 @@ namespace logIn
             this.button1.TabIndex = 27;
             this.button1.Text = "حذف";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.del_course);
             // 
-            // textBox2
+            // textBox1
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.textBox2.Location = new System.Drawing.Point(68, 154);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(208, 24);
-            this.textBox2.TabIndex = 26;
-            this.textBox2.Text = " أدخل رقم المادة  ";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.textBox1.Location = new System.Drawing.Point(68, 154);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(208, 24);
+            this.textBox1.TabIndex = 26;
+            this.textBox1.Text = " أدخل رقم المادة  ";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // LogInLabel1
             // 
@@ -104,6 +105,7 @@ namespace logIn
             this.button3.TabIndex = 30;
             this.button3.Text = "X";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.close_button);
             // 
             // button6
             // 
@@ -144,11 +146,12 @@ namespace logIn
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.LogInLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "delCourse";
             this.Text = "delCourse";
+            this.Load += new System.EventHandler(this.delCourse_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,7 +160,7 @@ namespace logIn
         #endregion
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label LogInLabel1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button6;

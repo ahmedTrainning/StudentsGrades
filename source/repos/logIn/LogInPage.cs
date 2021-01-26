@@ -78,7 +78,8 @@ namespace GradesForm
                     {
                         isMatched = true;
                         break;
-                    }  
+                    }
+
                 }
                 reader.Close();
 
@@ -104,6 +105,11 @@ namespace GradesForm
                         }
                     }
                     reader.Close();
+                }
+                else
+                {
+                    MessageBox.Show("رقم الحساب او كلمة المرور غير متطابقة");
+
                 }
                 commandDb.ExecuteNonQuery();
             }
