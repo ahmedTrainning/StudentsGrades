@@ -41,10 +41,11 @@ namespace logIn
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button2.BackColor = System.Drawing.Color.DodgerBlue;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(68, 230);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 30);
@@ -55,12 +56,13 @@ namespace logIn
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonFace;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(201, 230);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 30);

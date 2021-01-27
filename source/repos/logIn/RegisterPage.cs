@@ -77,5 +77,10 @@ namespace StudentGrade
             var log_page = new LogInPage();
             log_page.Show();
         }
+
+        private void unvisibl_pic_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

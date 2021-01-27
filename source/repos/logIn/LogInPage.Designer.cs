@@ -80,10 +80,11 @@ namespace GradesForm
             // 
             // LogInbutton
             // 
-            this.LogInbutton.BackColor = System.Drawing.Color.DarkKhaki;
+            this.LogInbutton.BackColor = System.Drawing.Color.DodgerBlue;
             this.LogInbutton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LogInbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LogInbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInbutton.ForeColor = System.Drawing.Color.White;
             this.LogInbutton.Location = new System.Drawing.Point(68, 300);
             this.LogInbutton.Name = "LogInbutton";
             this.LogInbutton.Size = new System.Drawing.Size(211, 26);
@@ -220,7 +221,7 @@ namespace GradesForm
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(342, 425);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);

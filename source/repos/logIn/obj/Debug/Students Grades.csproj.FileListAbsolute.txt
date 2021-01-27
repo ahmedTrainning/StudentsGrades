@@ -158,3 +158,4 @@ C:\GitHub\Workspace\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\S
 C:\GitHub\Workspace\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\Students Grades.csproj.CopyComplete
 C:\GitHub\Workspace\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\logIn.exe
 C:\GitHub\Workspace\StudentsGrades\StudentsGrades\source\repos\logIn\obj\Debug\logIn.pdb
+M:\GithubWP\StudentsGrades\source\repos\logIn\obj\Debug\logIn.Query.resources

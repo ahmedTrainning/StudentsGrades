@@ -81,7 +81,7 @@ namespace GradesForm
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button7.BackColor = System.Drawing.Color.White;
             this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -95,7 +95,7 @@ namespace GradesForm
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button6.BackColor = System.Drawing.Color.White;
             this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -109,10 +109,11 @@ namespace GradesForm
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button2.BackColor = System.Drawing.Color.DodgerBlue;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(68, 231);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 30);
@@ -123,10 +124,11 @@ namespace GradesForm
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(201, 231);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 30);

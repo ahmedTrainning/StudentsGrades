@@ -58,40 +58,40 @@ namespace GradesForm
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             resources.ApplyResources(this.button1, "button1");
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.courseF_button);
             // 
             // Show
             // 
-            this.Show.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Show.BackColor = System.Drawing.Color.SteelBlue;
             this.Show.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Show.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             resources.ApplyResources(this.Show, "Show");
-            this.Show.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Show.ForeColor = System.Drawing.Color.White;
             this.Show.Name = "Show";
             this.Show.UseVisualStyleBackColor = false;
             this.Show.Click += new System.EventHandler(this.Show_Click);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.BackColor = System.Drawing.Color.DodgerBlue;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             resources.ApplyResources(this.button2, "button2");
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button6.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.button6, "button6");
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button6.Name = "button6";
@@ -99,25 +99,29 @@ namespace GradesForm
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button5.BackColor = System.Drawing.Color.DodgerBlue;
             resources.ApplyResources(this.button5, "button5");
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Name = "button5";
             this.button5.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button4.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.button4, "button4");
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Name = "button4";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
+            this.button7.BackColor = System.Drawing.Color.DodgerBlue;
             resources.ApplyResources(this.button7, "button7");
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Name = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.logout_button);
             // 
             // homePage
